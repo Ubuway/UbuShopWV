@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UbuShop | Космический Маркетплейс</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <!-- Фон с частицами -->
+    <div id="particles-js"></div>
+    
+    <!-- Загрузочный экран -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="cosmic-loader">
+                <div class="orbit">
+                    <div class="planet"></div>
+                </div>
+                <div class="star star1"></div>
+                <div class="star star2"></div>
+                <div class="star star3"></div>
+            </div>
+            <div class="brand-title">
+                <h1 class="nebula-text">UbuShop</h1>
+                <p class="powered-by">powered by <span class="ubuway-gradient">Ubuway</span></p>
+            </div>
+            <div class="loading-subtitle">
+                <span class="typing-text">Загрузка космического маркетплейса...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Контейнер для контента -->
+    <div id="app" class="app-container"></div>
+
+    <!-- Уведомления -->
+    <div id="notification-container"></div>
+
+    <!-- Кнопка переключения Telegram -->
+    <div id="telegram-toggle" class="telegram-toggle">
+        <button class="tg-toggle-btn" id="tg-btn">
+            <i class="fab fa-telegram"></i>
+            <span>Открыть в Telegram</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
